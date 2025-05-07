@@ -226,7 +226,8 @@ main {
     animation: fadeIn 0.8s ease-in-out;
 }
 .stafbul-table th {
-   text-align: left;
+   text-align: right;
+   padding-right: 15px;
 }
 .book-links {
     max-width: 900px;
