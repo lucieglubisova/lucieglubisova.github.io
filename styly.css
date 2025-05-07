@@ -225,6 +225,9 @@ main {
     box-shadow: 0 8px 24px rgba(0, 0, 0, 0.1);
     animation: fadeIn 0.8s ease-in-out;
 }
+.stafbul-table th {
+   text-align: left;
+}
 .book-links {
     max-width: 900px;
     margin: 60px auto;
