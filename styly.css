@@ -95,13 +95,20 @@ h1 {
 }
 
 /* OBRÁZKY */
-img {
-    max-width: 100%;
+.gallery {
+    gap: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+div img {
     border-radius: 12px;
     transition: transform 0.3s ease;
+    height: 12rem
+    
 }
 
-img:hover {
+div img:hover {
     transform: scale(1.03);
 }
 
