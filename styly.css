@@ -198,15 +198,6 @@ main {
     box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
 }
 
-/* Barevné odlišení sekcí */
-.choice.yes ul li {
-    border-left-color: #7cb342;
-}
-
-.choice.no ul li {
-    border-left-color: #f44336;
-}
-
 /* Responsivita */
 @media (min-width: 768px) {
     .choice-container {
@@ -286,4 +277,25 @@ main {
 .book-links a:hover {
     color: #b06f79;
     text-decoration: underline;
+}
+
+.historie-fotky {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+    padding: 30px 0;
+}
+
+.historie-fotky img {
+    width: 260px;
+    height: auto;
+    border-radius: 16px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.historie-fotky img:hover {
+    transform: scale(1.05);
+    box-shadow: 0 6px 16px rgba(0,0,0,0.15);
 }
