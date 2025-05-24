@@ -48,6 +48,8 @@ try {
     $mail->Password   = 'N]S}2q1QfRFL$3#';     
     $mail->SMTPSecure = PHPMailer::ENCRYPTION_STARTTLS;
     $mail->Port       = 587;
+    $mail->CharSet = 'UTF-8'; // Nastavení kódování na UTF-8
+    $mail->Encoding= 'base64'; // Nastavení kódování zprávy na base64
 
     //Recipients
     $mail->setFrom('lucieglubisovatest@seznam.cz', 'Webový formulář');
@@ -100,6 +102,8 @@ try {
     $sendermail->Password   = 'N]S}2q1QfRFL$3#';     
     $sendermail->SMTPSecure = PHPMailer::ENCRYPTION_STARTTLS;
     $sendermail->Port       = 587;
+    $sendermail->CharSet = 'UTF-8'; // Nastavení kódování na UTF-8
+    $sendermail->Encoding= 'base64'; // Nastavení kódování zprávy na base64
 
     //Recipients
     $sendermail->setFrom('lucieglubisovatest@seznam.cz', 'Webový formulář');
