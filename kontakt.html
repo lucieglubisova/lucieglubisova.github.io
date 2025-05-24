@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="cs">
 <head>
-     <meta charset="UTF-8">
+        <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Život se stafbulem</title>
         <meta name="description" content="Informace o stafordšírském bulteriérovi, jeho historii, 
@@ -18,7 +18,7 @@
         <link rel="stylesheet" href="styly.css">
 </head>
 <body>
-    <nav class="menu">
+     <nav class="menu">
         <div class="vodoznak-menu"> Život se stafbulem🐾</div>
         <ul>
           <li><a href="index.html">Úvod</a></li>
@@ -26,33 +26,38 @@
           <li><a href="charakteristika.html">Charakteristika</a></li>
           <li><a href="pece.html">Péče</a></li>
           <li><a href="vychova a vycvik.html">Výchova a výcvik</a></li>
-          <li><a class="active" href="fotogalerie.html">Fotogalerie</a></li>
-          <li><a href="kontakt.html">Kontakt</a></li>
+          <li><a href="fotogalerie.html">Fotogalerie</a></li>
+          <li><a class="active" href="kontakt.html">Kontakt</a></li>
         </ul>
-      </nav>
+    </nav>
+
     <header>
-        <h1>Fotogalerie</h1>
-    </header>
+        <h1>Kontaktujte nás</h1>
+    </header>   
     <main>
-        <div class="gallery">
-            <img src="fotky/teddynek.jpg" alt="Stafbul 0">
-            <img src="fotky/pes.jpg" alt="Stafbul 1">
-            <img src="fotky/pes1.webp" alt="Stafbul 2">
-            <img src="fotky/hnedy pes.jpg" alt="Stafbul 3">
-            <img src="fotky/fenka.jpg" alt="Stafbul 4">
-            <img src="fotky/žihaný pes.jpg" alt="Stafbul 5">
-            <img src="fotky/hra.jpg" alt="Stafbul 7">
-            <img src="fotky/černý pes.jpg" alt="Stafbul 6">
-            <img src="fotky/top staff.jpg" alt="Stafbul 8">
-            <img src="fotky/The-Staffordshire-Bull-Terrier.png" alt="Stafbul 9">
-            <img src="fotky/modrá.webp" alt="Stafbul 14">
-            <img src="fotky/s náprsenkou.jpg" alt="Stafbul 10">
-            <img src="fotky/štěnátko.jpg" alt="Stafbul 11">
-            <img src="fotky/bílá.jpg" alt="Stafbul 12">
-            <img src="fotky/DVOJČATA.jpg" alt="Stafbul 13">
-        </div>
+        <h2>Máte dotazy nebo potřebujete více informací?</h2>
+        <p>
+            Pokud máte jakékoli dotazy ohledně stafordšírských bulteriérů, jejich péče, výchovy nebo 
+            čehokoli jiného, neváhejte nás kontaktovat. Rádi vám pomůžeme a poskytneme další informace.
+        </p>
+        
+    <form action="email.php" method="post">
+        <label for="name">Jméno:</label>
+        <input type="text" id="name" name="name" required>
+
+        <label for="email">E-mail:</label>
+        <input type="email" id="email" name="email" required>
+
+        <label for="message">Zpráva:</label>
+        <textarea id="message" name="message" rows="4" required></textarea>
+
+        <input type="submit" value="Odeslat">
+    </form>
     </main>
+
     <footer>
         <p>Život se stafbulem</p>
     </footer>
+
+</body>
 </html>

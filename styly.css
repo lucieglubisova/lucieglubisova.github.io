@@ -120,6 +120,37 @@ div img:hover {
         flex-direction: column;
         align-items: center;
     }
+    form {
+        width: 90%;
+    }
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    width: 50%;
+    margin: auto;
+    margin-bottom: 20px;
+}
+form label {
+    font-weight: 600;
+    color: #5d4954;
+}
+form input {
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    font-size: 16px;
+    width: 100%;
+    box-sizing: border-box; /* Aby padding a border byly zahrnuty do šířky */
+}
+form input[type="submit"] 
+{
+    background-color: #b06f79;
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
 }
 
 /* PATIČKA */
